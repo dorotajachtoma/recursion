@@ -29,7 +29,6 @@ public class Main {
                 }
             }
         }
-        System.out.println(billsFromATM);
         return false;
     }
 
@@ -38,7 +37,7 @@ public class Main {
         ATMState atmState =  new ATMState();
         atmState.setBillsInATM();
         Map<Integer, Integer> bills = atmState.getBillsInATM();
-        int toWithdraw = 380;
+        int toWithdraw = 1355;
         withdraw(toWithdraw, bills);
     }
 }
